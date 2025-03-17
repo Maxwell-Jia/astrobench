@@ -13,7 +13,7 @@ filter_list:
   - name: "extract-answer"
     filter:
       - function: "regex"
-        regex_pattern: "Answer:\\s*([A-Z])"
+        regex_pattern: "Answer:\\s*([A-D])|(?:^|[^A-Za-z])([A-D])(?:[^A-Za-z]|$)"
         fallback: "[invalid]"
       - function: "take_first"
 
