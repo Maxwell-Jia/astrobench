@@ -179,7 +179,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = ">=3.4.0" },
-    { name = "lm-eval", specifier = "==0.4.8" },
+    { name = "lm-eval", git = "ssh://git@github.com/Maxwell-Jia/lm-evaluation-harness.git?rev=5fbcead9b4231115c850a6cc3df3ad474a911d2d" },
     { name = "openai", specifier = ">=1.66.3" },
     { name = "tenacity", specifier = ">=9.0.0" },
     { name = "torch", specifier = "==2.5.1" },
@@ -976,7 +976,7 @@ wheels = [
 [[package]]
 name = "lm-eval"
 version = "0.4.8"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "ssh://git@github.com/Maxwell-Jia/lm-evaluation-harness.git?rev=5fbcead9b4231115c850a6cc3df3ad474a911d2d#5fbcead9b4231115c850a6cc3df3ad474a911d2d" }
 dependencies = [
     { name = "accelerate" },
     { name = "datasets" },
@@ -997,10 +997,6 @@ dependencies = [
     { name = "transformers" },
     { name = "word2number" },
     { name = "zstandard" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/ba/b2/fe23d318c5f645636f9f776c373d1ba68aa55c998894660613a09b0fe2ec/lm_eval-0.4.8.tar.gz", hash = "sha256:3a7ffff20347315bf2318796b90ec9f7dd819836567085b5f57fdcc8bc450b4d", size = 1360915 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c3/0b/36d6117f644f3685e6b87005ecd7051d01e9cdcf617e8e671102c1546de2/lm_eval-0.4.8-py3-none-any.whl", hash = "sha256:2ba377e067affcfcd27b73d6c045f8ce9ff88accd56176d9a86af3c12b0e01f6", size = 3888006 },
 ]
 
 [[package]]

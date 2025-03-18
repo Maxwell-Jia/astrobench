@@ -12,3 +12,6 @@ dependencies = [
     "torch==2.5.1",
     "vllm==0.7.3",
 ]
+
+[tool.uv.sources]
+lm-eval = { git = "ssh://git@github.com/Maxwell-Jia/lm-evaluation-harness.git", rev = "5fbcead9b4231115c850a6cc3df3ad474a911d2d" }
