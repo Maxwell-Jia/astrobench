@@ -1,5 +1,6 @@
 eval_results/
 lm-evaluation-harness/
+*.local.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
