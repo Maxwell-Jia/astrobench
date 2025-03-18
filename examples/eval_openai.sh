@@ -11,7 +11,7 @@ OUTPUT_DIR=eval_results/openai/$MODEL
 base_url=$OPENAI_BASE_URL/chat/completions
 
 lm_eval --model openai-chat-completions \
-    --model_args "model=$MODEL,api_key=$OPENAI_API_KEY,base_url=$base_url" \
+    --model_args "model=$MODEL,api_key=$OPENAI_API_KEY,base_url=$base_url,num_concurrent=$OPENAI_CONCURRENCY" \
     --gen_kwargs "max_gen_toks=16384" \
     --tasks gpqa_astro,super_gpqa_astro \
     --output_path $OUTPUT_DIR \
