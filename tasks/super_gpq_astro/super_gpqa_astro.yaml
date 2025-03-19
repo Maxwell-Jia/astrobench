@@ -13,9 +13,9 @@ filter_list:
   - name: "extract-answer"
     filter:
       - function: "regex"
-        regex_pattern: "Answer:\\s*([A-J])|(?:^|[^A-Za-z])([A-J])(?:[^A-Za-z]|$)"
+        regex_pattern: "(?i)Answer:\\s*([A-J])"
         fallback: "[invalid]"
-      - function: "take_first"
+      - function: "take_last"
 
 metric_list:
   - metric: "exact_match"
