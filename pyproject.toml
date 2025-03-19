@@ -14,4 +14,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-lm-eval = { git = "ssh://git@github.com/Maxwell-Jia/lm-evaluation-harness.git", rev = "5fbcead9b4231115c850a6cc3df3ad474a911d2d" }
+lm-eval = { git = "ssh://git@github.com/Maxwell-Jia/lm-evaluation-harness.git", rev = "37db6265be60b02670e64a11ab3c5acc921b58c3" }
