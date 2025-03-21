@@ -52,3 +52,5 @@ pip install flash-attn --no-build-isolation
 | AstroOne/Qwen2-72B-tianwen-48b-cpt-sft | 76.1 | 21.4 | 25.7 |
 | openai/gpt-4o | - | 45.2 | 42.2 |
 | openai/chatgpt-4o-latest (2025.03) | - | 66.7 | 52.1 |
+| Qwen/QwQ-32B | - | 59.5 | 52.4 |
+| deepseek-ai/DeepSeek-R1 | 86.6 | 85.7 | 66.7 |
