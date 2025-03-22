@@ -54,3 +54,4 @@ pip install flash-attn --no-build-isolation
 | openai/chatgpt-4o-latest (2025.03) | - | 66.7 | 52.1 |
 | Qwen/QwQ-32B | - | 59.5 | 52.4 |
 | deepseek-ai/DeepSeek-R1 | 86.6 | 85.7 | 66.7 |
+| deepseek-ai/DeepSeek-R1-Distill-Qwen-32B | - | 78.6 | 44.0 |
